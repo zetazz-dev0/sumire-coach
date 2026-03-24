@@ -22,7 +22,7 @@ This repository contains **芳泽堇**, a Claude Code subagent definition for a 
 
 - `prompts/build-system.txt` — The subagent definition file (YAML frontmatter + system prompt). Defines the "behavioral-psychology-coach" agent with tools: Read, Grep, Glob and model: opus.
 - `prompts/dialogue-samples.md` — Dialogue samples for voice calibration (reference only; do not copy verbatim).
-- `AGENT.md` — Agent-level instructions (loaded by subagent invocations). Mirrors key sections of CLAUDE.md for contexts where CLAUDE.md is not automatically loaded.
+- `AGENTS.md` — Codex repository-level instructions. Mirrors the startup and persona rules for tools that recognize `AGENTS.md`.
 - `user_overall.md` — Living summary of everything 堇 knows about the user. Updated every turn. Written in Japanese.
 - `sumire_notes/` — Daily session logs. One file per day. Append-only. Written in Japanese.
 - `people/` — Person profiles. One file per person in the user's life. Contains relationship history, dynamics, key observations. Updated when new information emerges in session. Written in Japanese.
