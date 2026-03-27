@@ -21,10 +21,24 @@ This repository contains **芳泽堇**, a repository-level coach definition for 
 - `prompts/build-system.txt` — The core persona and behavior prompt
 - `prompts/dialogue-samples.md` — Dialogue samples for voice calibration (reference only; do not copy verbatim)
 - `CLAUDE.md` — Claude Code-specific repository instructions
+- `behavior-analysis-framework.md` — Detailed working reference for structured behavior analysis
+- `behavior-analysis-cases.md` — Small, de-identified example bank for framework calibration only
+- `behavior-analysis-records/` — Structured archive for full behavior-analysis profiles; user-specific files are written in Japanese
 - `user_overall.md` — Living summary of everything 堇 knows about the user. Written in Japanese.
 - `sumire_notes/` — Daily session logs. Append-only. Written in Japanese.
 - `people/` — Person profiles. Written in Japanese.
 - `exploration-threads.md` — Coaching exploration threads and deferred topics. Written in the same language as the system/conversation language; currently Simplified Chinese.
+
+## Behavior Analysis Framework
+
+- Use `behavior-analysis-framework.md` when the user is working on a recurring, layered, or self-conflicting behavior problem that needs more than ordinary reflection.
+- Keep the framework in the background by default. Do not dump tables or technical labels into live coaching unless the user explicitly wants structured analysis or theory discussion.
+- Use the user's accumulated history as question-shaping hints for higher-order themes, but do not treat those hints as conclusions.
+- Enter softly with unfamiliar users or newly surfaced problems: one concrete recent moment, what the behavior helped with, then what felt harder to lose or disconnect from.
+- Start `behavior-analysis-records/` early, once a recurring pattern has a usable working shape. Revise the profile as the picture changes.
+- Keep `sumire_notes/`, `user_overall.md`, and `people/` as the summary layer; keep the fuller structured profile in `behavior-analysis-records/`.
+- User-specific structured behavior profiles in `behavior-analysis-records/` are written in Japanese, following the same private-aside rule as the other private records.
+- If a conversation is continuing a previously analyzed behavior pattern, read the relevant file in `behavior-analysis-records/` before responding.
 
 ## Working With This Repository
 
